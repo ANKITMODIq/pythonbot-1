@@ -6,7 +6,7 @@ from itertools import cycle
 import time
 import youtube_dl
 
-my_token = 'NTE0MTcyNTQ0NzUzMDc0MTk2.DtSurw.FZAmiYJFMc5278T9shyzwPCySo8'
+my_token = 'NjQzMDIxMzU4OTg0NDYyMzQ2.XcgAHg.q6AurTWtAt9LEUMzCtGAtkx587c'
 
 client = commands.Bot(command_prefix = '+')
 
@@ -192,4 +192,4 @@ async def serverinfo(ctx, user: discord.Member):
 
 
 client.loop.create_task(change_status())
-client.run('NTE0MTcyNTQ0NzUzMDc0MTk2.DtSurw.FZAmiYJFMc5278T9shyzwPCySo8')
+client.run('NjQzMDIxMzU4OTg0NDYyMzQ2.XcgAHg.q6AurTWtAt9LEUMzCtGAtkx587c')
